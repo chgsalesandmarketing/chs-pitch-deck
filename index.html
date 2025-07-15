@@ -28,23 +28,22 @@
     header {
       background: var(--primary);
       color: var(--white);
-      padding: 4rem 1.5rem 2rem; /* adjusted bottom padding */
+      padding: 4rem 1.5rem;
       text-align: center;
-      position: relative;
-    }
-    .logo-container {
-      width: 80px;
-      height: 80px;
-      background: var(--white);
-      border-radius: 20%;
-      margin: 0 auto 1.5rem;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-    }
-    .logo-container img {
-      max-width: 60%;
-      max-height: 60%;
+      }
+  .logo-container {
+    width: 80px;
+    height: 80px;
+    background: #ffffff;
+    border-radius: 20%;
+    margin: 0 auto 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .logo-container img {
+    max-width: 60%;
+    max-height: 60%; 
     }
     header h1 {
       font-family: 'Playfair Display', serif;
@@ -70,30 +69,137 @@
       background: var(--accent);
       margin: .5rem auto 1.5rem;
     }
+    section {
+      padding: 3rem 1.5rem;
+      max-width: 900px;
+      margin: 0 auto 2rem;
+      background: var(--white);
+      border-radius: 8px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    }
+    .hero-section {
+      text-align: center;
+    }
+    .hero-section h2 {
+      font-family: 'Playfair Display', serif;
+      font-size: 2.5rem;
+      color: var(--primary);
+      margin-bottom: 1rem;
+    }
+    .hero-section p {
+      font-size: 1.1rem;
+      color: var(--secondary);
+      margin: 0 auto 2rem;
+      max-width: 700px;
+    }
+    .carousel-placeholder {
+      width: 100%;
+      height: 300px;
+      background: #e0e0e0;
+      border-radius: 8px;
+      margin-bottom: 2rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #777;
+      font-style: italic;
+    }
+    .cta-wrapper {
+      margin-bottom: 2rem;
+    }
+    .cta-wrapper .btn {
+      margin: 0 auto;
+    }
+    .btn {
+      display: inline-block;
+      padding: .75rem 1.5rem;
+      background: var(--accent);
+      color: var(--white);
+      text-decoration: none;
+      font-weight: 600;
+      border-radius: 4px;
+      transition: background .3s;
+    }
+    .btn:hover {
+      background: var(--primary);
+    }
+    h2 {
+      font-family: 'Playfair Display', serif;
+      font-size: 2rem;
+      color: var(--primary);
+      position: relative;
+      text-align: center;
+    }
+    h2::after {
+      content: '';
+      display: block;
+      width: 50px;
+      height: 3px;
+      background: var(--accent);
+      margin: .5rem auto 0;
+    }
+    .sub-cards {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+      margin-top: 1.5rem;
+    }
+    .sub-card {
+      flex: 1 1 calc(33.333% - 1rem);
+      background: var(--white);
+      border: 1px solid var(--accent);
+      border-radius: 4px;
+      padding: 1rem;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+    }
+    .sub-card h3 {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.25rem;
+      color: var(--primary);
+      margin-bottom: .5rem;
+    }
+    .sub-card p {
+      font-size: .95rem;
+      line-height: 1.4;
+    }
+    ol {
+      margin-left: 1.25rem;
+      margin-top: .5rem;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 1rem;
+    }
+    th, td {
+      padding: .75rem;
+      border: 1px solid #ccc;
+      text-align: left;
+      font-size: .95rem;
+    }
+    th {
+      background: var(--primary);
+      color: var(--white);
+      font-weight: 600;
+    }
+    @media (max-width: 600px) {
+      header h1 { font-size: 2.2rem; }
+      .hero-section h2 { font-size: 2rem; }
+      section { padding: 2rem 1rem; }
+      .sub-card { flex: 1 1 100%; }
+      table, th, td { font-size: .8rem; }
+    }
   </style>
 </head>
 <body>
   <main>
-    <header>
-      <div class="logo-container">
-        <img src="CHS Logo.jpg" alt="CHS Logo">
-      </div>
-      <h1>Integrated Content Marketing &amp; IMC Proposal</h1>
-      <p>Unique · Personalised · Inviting — A revised approach for Courtleigh Hospitality Group</p>
-      <span class="sec-divider"></span>
-    </header>
-
-<section id="intro" class="hero-section">
-  <h2>Introducing Room to Wonder<br><small>(Pilot Episodes)</small></h2>
-  <span class="sec-divider"></span>
-  <p>To test the waters, we’ll launch just the first two flagship mini-docs—60 s each—dropping on the last Thursday of this month and next. Intimate narration will unveil hidden micro-stories in Mingles Bar &amp; Lounge and Garden Terrace, steered by viewers' pinned comments for a truly personalised journey. If these pilots succeed, we could expand into the full continuous content series.</p>
-  <div class="carousel-placeholder">
-    Image carousel placeholder
+ <header>
+  <div class="logo-container">
+    <img src="CHS Logo.jpg" alt="Courtleigh Hospitality Group logo">
   </div>
-  <div class="cta-wrapper">
-    <a href="#ecosystem" class="btn">Discover the Ecosystem</a>
-  </div>
-</section>
+  <h1>Integrated Content Marketing &amp; IMC Proposal</h1>
+  <p>Unique · Personalised · Inviting — A revised approach for Courtleigh Hospitality Group</p>
+</header>
 
 
 <section id="ecosystem">
