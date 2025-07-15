@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Integrated Content Marketing &amp; IMC Proposal</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Lora:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --primary: #326130;
+      --secondary: #906d45;
+      --accent: #900135;
+      --alt-bg: #E8F0DB;
+      --black: #000000;
+      --white: #FFFFFF;
+    }
+    *, *::before, *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-family: 'Lora', serif;
+      background: var(--alt-bg);
+      color: var(--black);
+      line-height: 1.6;
+    }
+    header {
+      background: var(--primary);
+      color: var(--white);
+      padding: 4rem 1.5rem;
+      text-align: center;
+    }
+    header h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 3rem;
+      letter-spacing: 1px;
+      background: linear-gradient(90deg, var(--white), var(--alt-bg));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin-bottom: 1rem;
+      display: block;
+    }
+    header p {
+      font-size: 1.2rem;
+      opacity: .9;
+      background: linear-gradient(90deg, var(--white), var(--alt-bg));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      display: block;
+    }
+    .sec-divider {
+      width: 60px;
+      height: 4px;
+      background: var(--accent);
+      margin: .5rem auto 1.5rem;
+    }
+    section {
+      padding: 3rem 1.5rem;
+      max-width: 900px;
+      margin: 0 auto 2rem;
+      background: var(--white);
+      border-radius: 8px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    }
+    .hero-section {
+      text-align: center;
+    }
+    .hero-section h2 {
+      font-family: 'Playfair Display', serif;
+      font-size: 2.5rem;
+      color: var(--primary);
+      margin-bottom: 1rem;
+    }
+    .hero-section p {
+      font-size: 1.1rem;
+      color: var(--secondary);
+      margin: 0 auto 2rem;
+      max-width: 700px;
+    }
+    .carousel-placeholder {
+      width: 100%;
+      height: 300px;
+      background: #e0e0e0;
+      border-radius: 8px;
+      margin-bottom: 2rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #777;
+      font-style: italic;
+    }
+    .cta-wrapper {
+      margin-bottom: 2rem;
+    }
+    .cta-wrapper .btn {
+      margin: 0 auto;
+    }
+    .btn {
+      display: inline-block;
+      padding: .75rem 1.5rem;
+      background: var(--accent);
+      color: var(--white);
+      text-decoration: none;
+      font-weight: 600;
+      border-radius: 4px;
+      transition: background .3s;
+    }
+    .btn:hover {
+      background: var(--primary);
+    }
+    h2 {
+      font-family: 'Playfair Display', serif;
+      font-size: 2rem;
+      color: var(--primary);
+      position: relative;
+      text-align: center;
+    }
+    h2::after {
+      content: '';
+      display: block;
+      width: 50px;
+      height: 3px;
+      background: var(--accent);
+      margin: .5rem auto 0;
+    }
+    .sub-cards {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+      margin-top: 1.5rem;
+    }
+    .sub-card {
+      flex: 1 1 calc(33.333% - 1rem);
+      background: var(--white);
+      border: 1px solid var(--accent);
+      border-radius: 4px;
+      padding: 1rem;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+    }
+    .sub-card h3 {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.25rem;
+      color: var(--primary);
+      margin-bottom: .5rem;
+    }
+    .sub-card p {
+      font-size: .95rem;
+      line-height: 1.4;
+    }
+    ol {
+      margin-left: 1.25rem;
+      margin-top: .5rem;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 1rem;
+    }
+    th, td {
+      padding: .75rem;
+      border: 1px solid #ccc;
+      text-align: left;
+      font-size: .95rem;
+    }
+    th {
+      background: var(--primary);
+      color: var(--white);
+      font-weight: 600;
+    }
+    @media (max-width: 600px) {
+      header h1 { font-size: 2.2rem; }
+      .hero-section h2 { font-size: 2rem; }
+      section { padding: 2rem 1rem; }
+      .sub-card { flex: 1 1 100%; }
+      table, th, td { font-size: .8rem; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <h1>Integrated Content Marketing &amp; IMC Proposal</h1>
+      <p>Unique · Personalised · Inviting — A revised approach for Courtleigh Hospitality Group</p>
+    </header>
+
+    <section class="hero-section" id="intro">
+      <h2>Introducing Room to Wonder</h2>
+      <span class="sec-divider"></span>
+      <p>Experience our flagship 12-episode mini-doc series—70 seconds each—released the last Thursday of every month. Velton’s intimate narration unveils hidden micro-stories in our boutique spaces, driven by your pinned comments for a truly personalised journey.</p>
+      <div class="carousel-placeholder">
+        Image carousel placeholder
+      </div>
+      <div class="cta-wrapper">
+        <a href="#ecosystem" class="btn">Discover the Ecosystem</a>
+      </div>
+    </section>
+
+    <section id="ecosystem">
+      <h2>1. Three-Tiered Content Ecosystem</h2>
+      <span class="sec-divider"></span>
+      <div class="sub-cards">
+        <div class="sub-card">
+          <h3>Tier 1: Flagship Episodes</h3>
+          <p>Monthly 70s mini-docs with a 1 hr shoot, polished edit, VO, sound design, partner cameo, and intern support. This hub content radiates Unique · Personalised · Inviting.</p>
+        </div>
+        <div class="sub-card">
+          <h3>Tier 2: Weekly Pillars</h3>
+          <p>Caption-Loop Reels (4–6 s hook → 10–15 s B-roll → mini-article caption) and 15 s Event Promos, all reusing flagship B-roll for efficiency.</p>
+        </div>
+        <div class="sub-card">
+          <h3>Tier 3: Micro &amp; Reactive Moments</h3>
+          <p>Daily Stories &amp; UGC Reposts (staff spotlights, guest selfies) plus on-the-fly Reels featuring chef demos and hidden-corner tours.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="alignment">
+      <h2>2. Episodes ↔ Event Promo Alignment</h2>
+      <span class="sec-divider"></span>
+      <table>
+        <thead>
+          <tr>
+            <th>Episode</th><th>Space &amp; Event</th><th>Story Beat</th><th>Promo B-roll</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>Mingles Bar &amp; Lounge · Live DJ Fridays</td>
+            <td>Invitation → Signature Cocktail Detail → Unique Reveal (29-yr-old rocks glass)</td>
+            <td>DJ drop, cocktail pour, guest cheers → Fri Live DJ promo</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>Garden Terrace · Wed Jerk BBQ &amp; Jive</td>
+            <td>Invitation → Ember Macro → Unique Reveal (“Marinade naps longer than first dates”)</td>
+            <td>Flame-kissed ribs, foil snap, dancers → Wed Jerk BBQ promo</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section id="activation">
+      <h2>3. IMC Hub Activation</h2>
+      <span class="sec-divider"></span>
+      <table>
+        <thead>
+          <tr><th>Channel</th><th>Examples</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>PR &amp; Media</td><td>Feature story: Inside CHS’s Room to Wonder</td></tr>
+          <tr><td>Promotions</td><td>In-lobby collateral: Experience Mingles through our video</td></tr>
+          <tr><td>Sales Enablement</td><td>30 s sizzle clip in sales decks; concierge talking points</td></tr>
+          <tr><td>Email &amp; CRM</td><td>Newsletter deep-dive + UTM “Watch now”</td></tr>
+          <tr><td>Web &amp; Blog</td><td>SEO page for Mingles Bar + BTS blog post</td></tr>
+          <tr><td>Social</td><td>70 s flagship, 15 s promo, 20 s BTS teaser, staff UGC</td></tr>
+          <tr><td>Paid Media</td><td>Boosted Reel to lookalikes &amp; partners</td></tr>
+          <tr><td>LinkedIn BTS</td><td>3-slide carousel + “Watch on IG” CTA</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section id="engagement">
+      <h2>4. Staff, Partner &amp; Brand Engagement</h2>
+      <span class="sec-divider"></span>
+      <div class="sub-cards">
+        <div class="sub-card">
+          <h3>Storyteller’s Table</h3>
+          <p>Monthly workshops inviting F&amp;B, Front Desk, Spa & Events to pitch micro-stories.</p>
+        </div>
+        <div class="sub-card">
+          <h3>Internship Rotation</h3>
+          <p>2–3 creatives capture 2nd camera, sound & BTS stills—credited on IG & LinkedIn.</p>
+        </div>
+        <div class="sub-card">
+          <h3>Rooftop Premiere</h3>
+          <p>Project reel at Top of the World with staff, VIPs & CPJ reps; serve Mingles Sangria; capture vox-pops & UGC.</p>
+        </div>
+        <div class="sub-card">
+          <h3>Brand Partnerships</h3>
+          <p>Collaborate with Caribbean Producers (Jamaica) Ltd for co-branded posts, extended reach, equipment support & cost-sharing.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="script">
+      <h2>5. Sample Episode Script</h2>
+      <span class="sec-divider"></span>
+      <div class="sub-cards">
+        <div class="sub-card">
+          <h3>0–05 s</h3>
+          <p><strong>Visuals:</strong> Pinned comment (“Show us Mingles!”) fades in over glowing bar lights.</p>
+          <p><strong>VO:</strong> “@foodiejane wondered what electrifies Mingles after dark—let’s slip in and listen.”</p>
+          <p><strong>Audio &amp; Notes:</strong> SFX: gentle whoosh on comment; undercurrent of low DJ beat.</p>
+        </div>
+        <div class="sub-card">
+          <h3>05–12 s</h3>
+          <p><strong>Visuals:</strong> Glide past velvet stools to the DJ booth; neon “LIVE!” flickers.</p>
+          <p><strong>VO:</strong> “Pull up a stool by DJ Mayhem—where the city’s night owls remix their rhythms.”</p>
+          <p><strong>Audio &amp; Notes:</strong> Music: light piano chords join DJ beat; bar ambience.</p>
+        </div>
+        <div class="sub-card">
+          <h3>12–25 s</h3>
+          <p><strong>Visuals:</strong> Macro: ice clink in coupe; bartender sweeps rosemary sprig onto rim.</p>
+          <p><strong>VO:</strong> “Hear that ice-clink? It’s our start gun—every note bends to your mood.”</p>
+          <p><strong>Audio &amp; Notes:</strong> SFX: crystal-clear ice-clink; soft cymbal wash.</p>
+        </div>
+        <div class="sub-card">
+          <h3>25–40 s</h3>
+          <p><strong>Visuals:</strong> Slow-mo pour of Mingles Sangria; guests nod along.</p>
+          <p><strong>VO:</strong> “This is Mingles Sangria—Hardy’s Pinot Grigio, coconut rum, pineapple & orange juices, a tropical twist that keeps you guessing.”</p>
+          <p><strong>Audio &amp; Notes:</strong> Grade: warm ambers; music rises under VO.</p>
+        </div>
+        <div class="sub-card">
+          <h3>40–55 s</h3>
+          <p><strong>Visuals:</strong> Wide shot: crowd moving; DJ’s hand on turntable; neon “LIVE!”.</p>
+          <p><strong>VO:</strong> “Insiders know: Mingles is where every Friday story finds its pulse.”</p>
+          <p><strong>Audio &amp; Notes:</strong> Music: DJ Mayhem drop; cut to bar chatter loop.</p>
+        </div>
+        <div class="sub-card">
+          <h3>55–70 s</h3>
+          <p><strong>Visuals:</strong> Pull back to reveal full bar; overlay to pin next comment.</p>
+          <p><strong>VO:</strong> “Where shall we wander next? Tell us below—or join us this Friday.”</p>
+          <p><strong>Audio &amp; Notes:</strong> SFX: comment ping; music tag loops.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="harvest">
+      <h2>6. Extended BTS Harvest</h2>
+      <span class="sec-divider"></span>
+      <table>
+        <thead>
+          <tr><th>Asset</th><th>Capture</th><th>Repurpose</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>B-Roll Library</td><td>6–8 extra 10s pans (cocktail pour, ember glow)</td><td>Weekly Reels, site loops, future ads</td></tr>
+          <tr><td>BTS Funny Moments</td><td>Out-takes: shaker mis-toss, guest grin</td><td>15–20s TikTok/IG teasers</td></tr>
+          <tr><td>BTS Photos</td><td>10–12 candid team & intern shots</td><td>LinkedIn carousel, recruitment posts, PR kits</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section id="catalyst">
+      <h2>7. Premiere as Content Catalyst</h2>
+      <span class="sec-divider"></span>
+      <div class="sub-cards">
+        <div class="sub-card"><h3>Technical</h3><p>Portrait-mode projector on rooftop drape.</p></div>
+        <div class="sub-card"><h3>Experience</h3><p>Staff, VIPs & CPJ serve Mingles Sangria in skyline lounge.</p></div>
+        <div class="sub-card"><h3>Capture</h3><p>Vox-pops, UGC challenges (#RoomToWonderPremiere), BTS stills.</p></div>
+        <div class="sub-card"><h3>Repurpose</h3><p>Highlight reels for ads, email banners, website hero.</p></div>
+      </div>
+    </section>
+
+    <section id="governance">
+      <h2>8. Governance &amp; Cadence</h2>
+      <span class="sec-divider"></span>
+      <div class="sub-cards">
+        <div class="sub-card"><h3>Quarterly IMC Workshop</h3><p>Align Marketing, PR, F&amp;B, Sales, HR & partners.</p></div>
+        <div class="sub-card"><h3>Bi-weekly Editorial</h3><p>Triage micro/reactive ideas vs scheduled tiers.</p></div>
+        <div class="sub-card"><h3>Monthly KPI Review</h3><p>Flagship vs Tier 2 vs Tier 3 (watch-through, comments, bookings uplift).</p></div>
+      </div>
+    </section>
+
+    <section id="focus">
+      <h2>9. Why This Keeps CHS Fresh &amp; Focused</h2>
+      <span class="sec-divider"></span>
+      <div class="sub-cards">
+        <div class="sub-card"><h3>Efficiency</h3><p>One event shoot doubles as flagship + promo—max output, minimal days.</p></div>
+        <div class="sub-card"><h3>Consistency + Variety</h3><p>Tier 1 delivers “wow,” Tier 2 sustains, Tier 3 reacts.</p></div>
+        <div class="sub-card"><h3>True IMC Power</h3><p>Unified inviting, personalised story—no silos.</p></div>
+      </div>
+    </section>
+
+    <section id="next-steps">
+      <h2>10. Immediate Next Steps</h2>
+      <span class="sec-divider"></span>
+      <ol>
+        <li>Select two events to anchor Episodes 1 & 2</li>
+        <li>Schedule first Quarterly IMC Workshop</li>
+        <li>Confirm production calendar & stakeholder invites</li>
+      </ol>
+    </section>
+
+    <footer>
+      © 2025 Courtleigh Hospitality Group · Internal proposal draft
+    </footer>
+  </main>
+</body>
+</html>
